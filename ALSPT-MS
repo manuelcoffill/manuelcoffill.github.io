@@ -1,0 +1,26 @@
+<head> and <body>
+The two main parts of a webpage are the <head> and the <body>.
+
+The contents of <head> are not displayed. Instead, it’s where javascript and css files can be loaded and where you can set the title of the webpage. The title set here is not displayed on the webpage itself but rather shows up in the browser tab.
+Except for setting the title, you can leave the <head> untouched and just copy its content to new pages.
+
+The <body> is what actually gets displayed on the webpage.
+
+Divs
+The <body> usually consists of a number of <div> (“division”) elements.
+There are two divs in our blog post template.
+The first one renders the navigation bar at the top of the website. Rendering it involves some trickery that we will ignore for the moment.
+The second div consists of the content of the blogpost. Note that this div has the class “column.” The class defines how the div should be rendered–What font? How much whitespace? How to handle small devices? You don’t need to know how styling with cascading stylesheets (css) work for the moment. Just make sure that when you create a new page, the div with most of your content has the class “column” like so:
+
+<div class="column">
+            ....
+        </div>
+        
+Headings and Paragraphs
+Your actual blogpost will consist of headings and paragraphs.
+We have already seen <h1>, the largest kind of heading:
+
+h1
+HTML provides you with six different headings from <h1> to <h6>, the smallest one:
+
+h6
